@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Conclusão</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="metismenu-master/src/metisMenu.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mm-vertical.css">
+</head>
+<body>
+    <nav class="navbar navbar-default" style="margin-bottom: 0;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="principal.html" style="color: black;">
+                    <i class="fa fa-money" aria-hidden="true"></i>Ergonomia
+                </a>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a href="principal.html" style="color: black;">
+                        <i class="fa fa-home fa-2x"></i>
+                    </a>
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div id="page-wrapper">
+        <div style="text-align: center; margin-bottom: 5%;">
+            <h1>PARABÉNS, VOCÊ FINALIZOU O CURSO</h1>
+            <p style="text-align: justify; margin: 0 15% 0 15%;">Este curso foi desenvolvido por: Cynthia Rocha Oliveira, David Reksidler Júnior e João Moacir Barth Junior. Os três desenvolveram este curso como requisito parcial para aprovação na disciplica de Ergonomia das interfaces de aplicações do curso de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná.<br>Prof: Sandramara Scandelari Kusano de Paula Soares.<br><br> O trabalho em si foi elaborado com o objetivo de desenvolver e analisar interfaces, levando em conta aspectos ergonômicos aprendidos na disciplina.<br><br>Todas as etapas requisitadas pela professora foram atendidas dentro do prazo estipulado. Não só o objetivo de completar o trabalho foi atingindo como também a aquisição de novos conhecimentos por base em pesquisas durante o desenvolvimento. Neste projeto colocamos em prática o que nos foi passado durante as aulas para o estudo de ergonomia de interfaces em cima de um curso online desenvolvido pela equipe. A aplicação desses conceitos em um trabalho foi de grande valia para a equipe, pois ajudou a fixar e praticar os conteúdos adquiridos. Para isso foi necessário a consolidação de diversos conhecimentos adquiridos nesta disciplina.</p><br>
+        </div>
+        <div class="col-lg-3">
+        </div>
+        <div style="margin: auto;">
+            <ul class="metismenu col-lg-6" id="menu">
+                <li>
+                  <a href="#" aria-expanded="false" class="panel panel-default nover">1 - Introdução<span class="glyphicon arrow"></span></a>
+                  <ul aria-expanded="false">
+                    <li><a href="conteudo.html" class="panel panel-default nohor">O que é ser indepenente financeiramente?<span id="ck1" style="float: right;" class="fa fa-circle-o"></span></a></li>
+                    <li><a href="conteudo2.html" class="panel panel-default nohor">Quem são os juros compostos<span id="ck2"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" aria-expanded="false" class="panel panel-default nover">2 - Quero enriquecer<span class="glyphicon arrow"></span></a>
+                  <ul aria-expanded="false">
+                    <li><a href="conteudo3.html" class="panel panel-default nohor">Por onde começo a investir?<span id="ck3"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+                    <li><a href="conteudo4.html" class="panel panel-default nohor">As opções de investimentos (seguras e tranquilas)<span id="ck4"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="conteudo5.html" aria-expanded="false" class="panel panel-default nover">3 - Lugares para investir, maneiras de se organizar<span id="ck5"  style="float: right;" class="fa fa-circle-o"></span></a>
+                </li>
+                <li>
+                  <a href="exercicios.html" aria-expanded="false" class="panel panel-default nover">4 - Exercícios<span id="ck6"  style="float: right;" class="fa fa-circle-o"></span></a>
+                </li>
+                <li>
+                  <a href="conclusão.html" aria-expanded="false" class="panel panel-default nover">5 - Conclusão</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3"></div>
+    <div class="col-lg-12"><hr></div>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="metismenu-master/src/metisMenu.js"></script>
+    <script type="text/javascript" src="carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#menu').metisMenu();
+
+            if($.cookie('ck1') != undefined) {
+                $('#ck1').removeClass("fa-circle-o");
+                $('#ck1').addClass("fa-check-circle");
+            }
+            if($.cookie('ck2') != undefined) {
+                $('#ck2').removeClass("fa-circle-o");
+                $('#ck2').addClass("fa-check-circle");
+            }
+            if($.cookie('ck3') != undefined) {
+                $('#ck3').removeClass("fa-circle-o");
+                $('#ck3').addClass("fa-check-circle");
+            }
+            if($.cookie('ck4') != undefined) {
+                $('#ck4').removeClass("fa-circle-o");
+                $('#ck4').addClass("fa-check-circle");
+            }
+            if($.cookie('ck5') != undefined) {
+                $('#ck5').removeClass("fa-circle-o");
+                $('#ck5').addClass("fa-check-circle");
+            }
+            if($.cookie('ck6') != undefined) {
+                $('#ck6').removeClass("fa-circle-o");
+                $('#ck6').addClass("fa-check-circle");
+            }
+        });
+    </script>
+</body>
+</html>

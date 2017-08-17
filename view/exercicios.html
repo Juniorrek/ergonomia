@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercícios</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="metismenu-master/src/metisMenu.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mm-vertical.css">
+</head>
+<body>
+    <nav class="navbar navbar-default" style="margin-bottom: 0;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="principal.html" style="color: black;">
+                    <i class="fa fa-money" aria-hidden="true"></i>Ergonomia
+                </a>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a href="principal.html" style="color: black;">
+                        <i class="fa fa-home fa-2x"></i>
+                    </a>
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <ul class="metismenu col-lg-3" id="menu">
+        <li>
+          <a href="#" aria-expanded="false" class="panel panel-default nover">1 - Introdução<span class="glyphicon arrow"></span></a>
+          <ul aria-expanded="false">
+            <li><a href="conteudo.html" class="panel panel-default nohor">O que é ser indepenente financeiramente?<span id="ck1" style="float: right;" class="fa fa-circle-o"></span></a></li>
+            <li><a href="conteudo2.html" class="panel panel-default nohor">Quem são os juros compostos<span id="ck2"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" aria-expanded="false" class="panel panel-default nover">2 - Quero enriquecer<span class="glyphicon arrow"></span></a>
+          <ul aria-expanded="false">
+            <li><a href="conteudo3.html" class="panel panel-default nohor">Por onde começo a investir?<span id="ck3"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+            <li><a href="conteudo4.html" class="panel panel-default nohor">As opções de investimentos (seguras e tranquilas)<span id="ck4"  style="float: right;" class="fa fa-circle-o"></span></a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="conteudo5.html" aria-expanded="false" class="panel panel-default nover">3 - Lugares para investir, maneiras de se organizar<span id="ck5"  style="float: right;" class="fa fa-circle-o"></span></a>
+        </li>
+        <li>
+          <a href="exercicios.html" aria-expanded="false" class="panel panel-default nover">4 - Exercícios<span id="ck6"  style="float: right;" class="fa fa-circle"></span></a>
+        </li>
+        <li>
+          <a href="conclusão.html" aria-expanded="false" class="panel panel-default nover">5 - Conclusão</a>
+        </li>
+    </ul>
+    
+    <div id="page-wrapper">
+        <div class="col-lg-9" style="text-align: center;">
+            <div id="conteudo1">
+                <div class="col-lg-12">
+                    <h1>1. O que é ser independente financeiramente?</h1>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div id="pergunta1" class="col-lg-6" style="margin: 2% 0 2% 0;">
+                    <button type="button" id="1" class="btn btn-default btn-lg btn-block" onclick="corrigir('1', '1');">É ganhar dinheiro suficiente para pagar<br> as contas e viver.</button>
+                    <button type="button" id="2" class="btn btn-default btn-lg btn-block" onclick="corrigir('1', '2');">É sair de casa e morar sozinho.</button>
+                    <button type="button" id="3" class="btn btn-default btn-lg btn-block" onclick="corrigir('1', '3');">É não depender de ninguém para ganhar dinheiro,<br> conseguindo viver sem depender de salário.</button>
+                    <button type="button" id="4" class="btn btn-default btn-lg btn-block" onclick="corrigir('1', '4');">É ter dinheiro para ir para as baladas no<br> sábado a noite sem dar satisfação para ninguém.</button>
+                </div>
+            </div>
+            <div id="conteudo2">
+                <div class="col-lg-12">
+                    <h1>2. Como que o seu dinheiro irá render cada vez mais a cada mês, te levando para mais perto do seu objetivo financeiro?</h1>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div id="pergunta2" class="col-lg-6" style="margin: 2% 0 2% 0;">
+                    <button type="button" id="1" class="btn btn-default btn-lg btn-block" onclick="corrigir('2', '1');">Investido na poupança e rendendo abaixo da inflação.</button>
+                    <button type="button" id="2" class="btn btn-default btn-lg btn-block" onclick="corrigir('2', '2');">Investido em uma renda fixa, rendendo acima da<br> inflação, graças aos Juros Compostos.</button>
+                    <button type="button" id="3" class="btn btn-default btn-lg btn-block" onclick="corrigir('2', '3');">Através dos Juros Simples, que fazem meu dinheiro<br> se multiplicar magicamente.</button>
+                    <button type="button" id="4" class="btn btn-default btn-lg btn-block" onclick="corrigir('2', '4');">Só vai render se eu parar de gastar e guardar dinheiro<br> em casa.</button>
+                </div>
+            </div>
+            <div id="conteudo3">
+                <div class="col-lg-12">
+                    <h1>3. Qual a alternativa correta sobre o LCI e LCA?</h1>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div id="pergunta3" class="col-lg-6" style="margin: 2% 0 2% 0;">
+                    <button type="button" id="1" class="btn btn-default btn-lg btn-block" onclick="corrigir('3', '1');">LCI e LCA são siglas lançadas pelo banco e que vão<br> roubar o meu dinheiro.</button>
+                    <button type="button" id="2" class="btn btn-default btn-lg btn-block" onclick="corrigir('3', '2');">LCI e LCA são empréstimos que irei realizar para o<br> banco, mas que podem me fazer perder dinheiro por<br> estarem quase sempre rendendo abaixo da inflação.</button>
+                    <button type="button" id="3" class="btn btn-default btn-lg btn-block" onclick="corrigir('3', '3');">LCI é uma forma de ganhar dinheiro vendendo imóveis<br> para os bancos.</button>
+                    <button type="button" id="4" class="btn btn-default btn-lg btn-block" onclick="corrigir('3', '4');">LCI e LCA são empréstimos realizados para o banco<br>, no setor imobiliário e de agronegócio, seguros e que<br> não precisam ser declaradas no imposto de renda.</button>
+                </div>
+            </div>
+            <div id="conteudo4">
+                <div class="col-lg-12">
+                    <h1>4. Sobre o Tesouro Direto, qual das seguintes alternativas é a mais completa?</h1>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div id="pergunta4" class="col-lg-6" style="margin: 2% 0 2% 0;">
+                    <button type="button" id="1" class="btn btn-default btn-lg btn-block" onclick="corrigir('4', '1');">O Tesouro Direto é uma das várias formas de investir<br> meu dinheiro.</button>
+                    <button type="button" id="2" class="btn btn-default btn-lg btn-block" onclick="corrigir('4', '2');">O Tesouro Direto rende próximo da inflação, eu<br> empresto o meu dinheiro para os bancos e tenho um<br> prazo mínimo para retirar.</button>
+                    <button type="button" id="3" class="btn btn-default btn-lg btn-block" onclick="corrigir('4', '3');">O Tesouro Direto está seguro contra a inflação, rende<br> acima da poupança, o dinheiro é emprestado para o<br> governo e, dependendo do título, não tem prazo<br> mínimo para retirar.</button>
+                    <button type="button" id="4" class="btn btn-default btn-lg btn-block" onclick="corrigir('4', '4');">O Tesouro Direto rende mais que a poupança, não<br> é necessário pagar imposto sobre a rentabilidade e o<br> dinheiro emprestado para o governo é devolvido com<br> juros e correções.</button>
+                </div>
+            </div>
+            <div id="conteudo5">
+                <div class="col-lg-12">
+                    <h1>RESULTADO</h1>
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-6" style="margin: 2% 0 2% 0;">
+                    <h3 id="porcentagem" style="margin-bottom: 5%;">Acertos </h3>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3 panel panel-default" style="padding: 10px 15px 10px 15px; margin-right: 1%;">
+                        <span id="acertou" class="fa fa-check fa-2x"></span>
+                    </div>
+                    <div class="col-lg-3 panel panel-default" style="padding: 10px 15px 10px 15px;">
+                        <span id="errou" class="fa fa-close fa-2x"></span>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                        <a class="btn btn-info btn-lg" href="exercicios.html" style="margin-top: 2%; background: #337ab7;">Refazer</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a class="btn btn-info btn-lg" href="conclusão.html" style="margin-top: 2%; background: #337ab7;">Finalizar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg-9">
+            <nav aria-label="Page navigation" style="text-align: center;">
+          <ul class="pagination">
+            <li id="\<">
+              <a href="#" aria-label="Previous" onclick="prev();">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li id="1" class="active"><a id="1" href="#" onclick="pageChange($(this)[0].id);">1</a></li>
+            <li id="2"><a id="2" href="#" onclick="pageChange($(this)[0].id);">2</a></li>
+            <li id="3"><a id="3" href="#" onclick="pageChange($(this)[0].id);">3</a></li>
+            <li id="4"><a id="4" href="#" onclick="pageChange($(this)[0].id);">4</a></li>
+            <li id="5" class="disabled"><a id="5" href="#" onclick="pageChange($(this)[0].id);">5</a></li>
+            <li id="\>">
+              <a href="#" aria-label="Next" onclick="next();">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+    </div>
+
+    <div class="col-lg-12" style="position: absolute; bottom: -20%;"><hr></div>
+    <div id="fixed"><button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModal"><i class="fa fa-question"></i></button></div>
+    <div id="ajuda"></div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">AJUDA</h4>
+                </div>
+                <div class="modal-body">
+                    Esta é a seção de exercícios do curso. Você pode navegar entre as perguntas pelas
+                    setas de navegação '<' e '>'. No final será apresentado o resultado da sua avaliação.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="metismenu-master/src/metisMenu.js"></script>
+    <script type="text/javascript" src="carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        var respondidas = 0;
+        pageChange("1");
+
+        $(function() {
+            $('#menu').metisMenu();
+
+            if($.cookie('ck1') != undefined) {
+                $('#ck1').removeClass("fa-circle-o");
+                $('#ck1').addClass("fa-check-circle");
+            }
+            if($.cookie('ck2') != undefined) {
+                $('#ck2').removeClass("fa-circle-o");
+                $('#ck2').addClass("fa-check-circle");
+            }
+            if($.cookie('ck3') != undefined) {
+                $('#ck3').removeClass("fa-circle-o");
+                $('#ck3').addClass("fa-check-circle");
+            }
+            if($.cookie('ck4') != undefined) {
+                $('#ck4').removeClass("fa-circle-o");
+                $('#ck4').addClass("fa-check-circle");
+            }
+            if($.cookie('ck5') != undefined) {
+                $('#ck5').removeClass("fa-circle-o");
+                $('#ck5').addClass("fa-check-circle");
+            }
+            if($.cookie('ck6') != undefined) {
+                $('#ck6').removeClass("fa-circle-o");
+                $('#ck6').addClass("fa-check-circle");
+            }
+        });
+
+        function pageChange(clicked) {
+            $('.pagination li').each(function() {
+                if($(this)[0].id != '<' && $(this)[0].id != '>') {
+                    if($(this)[0].id == clicked) {
+                        $(this).addClass("active");
+                        $('#conteudo' + clicked).show();
+                    } else {
+                        $(this).removeClass("active");
+                        $('#conteudo' + $(this)[0].id).hide();
+                    }
+                }
+            });
+        }
+
+        function prev() {
+            var clicked;
+            $('.pagination li').each(function() {
+                if($(this)[0].className == "active") {
+                    clicked = $(this)[0].id;
+                }
+            });
+            if(parseInt(clicked) - 1 > 0) {
+                pageChange(parseInt(clicked) - 1);
+            }
+        }
+
+        function next() {
+            var clicked;
+            $('.pagination li').each(function() {
+                if($(this)[0].className == "active") {
+                    clicked = $(this)[0].id;
+                }
+            });
+            maximo = respondidas == 4 ? 6 : 5;
+            if(parseInt(clicked) + 1 < maximo) {//ALTERA MAXIMO
+                pageChange(parseInt(clicked) + 1);
+            }
+        }
+
+        var acertadas = 0;
+        var controle = [0, 0, 0, 0];
+        var correta = ['3', '2', '4', '3'];
+        function corrigir(pergunta, alternativa) {
+
+            if(pergunta == '1' && controle[0] == 0) {
+                if(alternativa == correta[0]) {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-success");
+                    acertadas++;
+                } else {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-danger");
+                    $('#pergunta' + pergunta + ' button[id=' + correta[0] + ']').addClass("btn-success");
+                }
+                controle[0] = 1;
+                respondidas++;
+            } else if(pergunta == '2' && controle[1] == 0) {
+                if(alternativa == correta[1]) {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-success");
+                    acertadas++;
+                } else {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-danger");
+                    $('#pergunta' + pergunta + ' button[id=' + correta[1] + ']').addClass("btn-success");
+                }
+                controle[1] = 1;
+                respondidas++;
+            } else if(pergunta == '3' && controle[2] == 0) {
+                if(alternativa == correta[2]) {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-success");
+                    acertadas++;
+                } else {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-danger");
+                    $('#pergunta' + pergunta + ' button[id=' + correta[2] + ']').addClass("btn-success");
+                }
+                controle[2] = 1;
+                respondidas++;
+            } else if(pergunta == '4' && controle[3] == 0) {
+                if(alternativa == correta[3]) {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-success");
+                    acertadas++;
+                } else {
+                    $('#pergunta' + pergunta + ' button[id=' + alternativa + ']').addClass("btn-danger");
+                    $('#pergunta' + pergunta + ' button[id=' + correta[3] + ']').addClass("btn-success");
+                }
+                controle[3] = 1;
+                respondidas++;
+            }
+
+            if(respondidas == 4) {//terminou
+                $.cookie('ck6', '1');
+                $('.pagination li').each(function() {
+                    if ($(this)[0].id == '5') {
+                        $(this).removeClass("disabled");
+                    }
+                });
+                $('#porcentagem').html(((acertadas / 4) * 100) + '%');
+                $('#acertou').html(acertadas);
+                $('#errou').html(4 - acertadas);
+            }
+        }
+
+    </script>
+</body>
+</html>
